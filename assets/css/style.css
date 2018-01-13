@@ -11,9 +11,8 @@ div.panel-body {
     color: black;
 }
 
-.panel-heading {
-	background-color: lightblue;
-
+.panel-default {
+    border-color: #842323;
 }
 
 .btn-primary {

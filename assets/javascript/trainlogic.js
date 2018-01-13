@@ -42,10 +42,10 @@ $(document).ready(function () {
     var newFreq = childSnapshot.val().frequency;
 
     // Assumptions
-    var tFrequency = 3;
+    // var tFrequency = 3;
 
     // Time is 3:30 AM
-    var firstTime = "03:30";
+    // var firstTime = "03:30";
 
     // First Time (pushed back 1 year to make sure it comes before current time)
     var firstTimeConverted = moment(newFirstTrain, "hh:mm").subtract(1, "years");
